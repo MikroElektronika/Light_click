@@ -1,0 +1,8 @@
+module Click_Light_config
+
+include Click_Light_types
+
+const
+    _LIGHT_SPI_CFG as uint32_t[3] = (_SPI_MASTER, _SPI_FCY_DIV32, _SPI_CLK_LO_LEADING)
+    
+end.
